@@ -1,0 +1,19 @@
+/* Tablet Media (Meno di 768 width) applichiamo nuove regole*/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Mobile 480px */
+@media screen and (max-width: 480px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .row .col {
+    width: 100%;
+  }
+}
